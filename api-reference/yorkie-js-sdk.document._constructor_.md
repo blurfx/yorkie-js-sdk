@@ -6,10 +6,10 @@
 
 Constructs a new instance of the `Document` class
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
-constructor(key: string);
+constructor(key: string, opts?: DocumentOptions);
 ```
 
 ## Parameters
@@ -17,4 +17,5 @@ constructor(key: string);
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  key | string |  |
+|  opts | DocumentOptions | _(Optional)_ |
 

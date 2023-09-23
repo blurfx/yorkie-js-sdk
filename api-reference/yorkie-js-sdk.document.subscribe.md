@@ -6,7 +6,7 @@
 
 `subscribe` registers a callback to subscribe to events on the document. The callback will be called when the document is changed.
 
-<b>Signature:</b>
+**Signature:**
 
 ```typescript
 subscribe(nextOrObserver: Observer<DocEvent> | NextFn<DocEvent>, error?: ErrorFn, complete?: CompleteFn): Unsubscribe;
@@ -16,11 +16,11 @@ subscribe(nextOrObserver: Observer<DocEvent> | NextFn<DocEvent>, error?: ErrorFn
 
 |  Parameter | Type | Description |
 |  --- | --- | --- |
-|  nextOrObserver | Observer&lt;[DocEvent](./yorkie-js-sdk.docevent.md)<!-- -->&gt; \| NextFn&lt;[DocEvent](./yorkie-js-sdk.docevent.md)<!-- -->&gt; |  |
-|  error | ErrorFn |  |
-|  complete | CompleteFn |  |
+|  nextOrObserver | [Observer](./yorkie-js-sdk.observer.md)<!-- -->&lt;[DocEvent](./yorkie-js-sdk.docevent.md)<!-- -->&gt; \| [NextFn](./yorkie-js-sdk.nextfn.md)<!-- -->&lt;[DocEvent](./yorkie-js-sdk.docevent.md)<!-- -->&gt; |  |
+|  error | [ErrorFn](./yorkie-js-sdk.errorfn.md) | _(Optional)_ |
+|  complete | [CompleteFn](./yorkie-js-sdk.completefn.md) | _(Optional)_ |
 
-<b>Returns:</b>
+**Returns:**
 
-Unsubscribe
+[Unsubscribe](./yorkie-js-sdk.unsubscribe.md)
 
